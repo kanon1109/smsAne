@@ -59,7 +59,7 @@ public class SmsAneTest extends Sprite
 	{
 		// TODO Auto-generated method stub
 		this.txt.text = "click2";
-		SmsAne.getInstance().openSMS("13761102895", "ane test");
+		SmsAne.getInstance().openSMS("137xxxxxxxx", "ane test");
 	}
 	
 	protected function statusHandler(event:StatusEvent):void
@@ -72,7 +72,7 @@ public class SmsAneTest extends Sprite
 	{
 		// TODO Auto-generated method stub
 		this.txt.text = "click1";
-		SmsAne.getInstance().sendSMS("13761102895", "ane test");
+		SmsAne.getInstance().sendSMS("137xxxxxxxx", "ane test");
 	}
 }
 }
